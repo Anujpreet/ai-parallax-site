@@ -40,7 +40,7 @@ export default function Scene() {
             electrons: { value: 1, min: 0, max: 118, step: 1 },
         }),
         "Visuals": folder({
-            sensitivity: { value: 1.5, min: 0.1, max: 100 },
+            sensitivity: { value: 5, min: 0.1, max: 100 },
             X: { value: 0, min: -5, max: 450 },
             Y: { value: 0, min: -5, max: 220 },
             Z: { value: 18, min: 5, max: 220 },
